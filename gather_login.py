@@ -43,7 +43,7 @@ except:
     print("Directory 'lib/wordlists/passwds.txt' mising")
     start_program = False
 try:
-    url = sys.argv[1]
+    url = sys.argv[1] + "/"
     usrind = sys.argv[2]
     passwdind = sys.argv[3]
     try:
@@ -77,7 +77,7 @@ def attack(url, usrind, passwdind, usr, passwd):
     header = {"User-Agent": random.choice(agents_list)}
     try:
         r = requests.post(url, headers=header, data=data)
-        if r.url != url and r.url + "/" != url:
+        if r.url != url:
             print(f"{Fore.LIGHTCYAN_EX}*-----KEY FOUND!-----*")
             print(f"User:{username}, Passwd:{passwd}")
             print(f"*-----KEY FOUND!-----*\n{Fore.RESET}")
