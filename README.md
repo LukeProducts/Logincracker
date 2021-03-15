@@ -1,2 +1,3 @@
 # Logincracker
-python program that is able to apply a Brute-Fore-Attack on webpage logins
+This is a python programm using your passlist and userlist to BRUTE-FORCE a for example login.php webpage.
+# DISCLAIMER: THIS IS FOR EDUCATIONAL PURPOSES ONLY! NO LIABILITY IS ASSUMED !
