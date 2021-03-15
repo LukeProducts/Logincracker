@@ -1,6 +1,6 @@
 
 # Logincracker
-This is a python programm using your passlist and userlist to BRUTE-FORCE a for example login.php webpage.
+This is a python programm using your passlist and userlist and random User-Agent generation to BRUTE-FORCE a for example login.php webpage.
 Installation:
 ```ruby
 pip install -r requirements.txt
