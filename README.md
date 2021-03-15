@@ -6,6 +6,7 @@ Installation:
 pip install -r requirements.txt
 ```
 usage:
+Go to file '/lib/worldists/' and insert your username_list and your password_list into the two existing files after removing the hint.
 ```ruby
 python gather_login.py [URL] [USERINDEX] [PASSWORDINDEX]
 ```
@@ -16,6 +17,8 @@ USERINDEX = value for variable 'name' in the Username-input
 
 PASSWORDINDEX = value for variable 'name' in the Password-input
 ![2](https://user-images.githubusercontent.com/73026669/111144934-015f4780-8588-11eb-9ffd-76f1a9ff2b2e.png)
+
+After success the login-data will be saved at '/lib/Results/cracked.txt'.
 
 # DISCLAIMER: THIS IS FOR EDUCATIONAL PURPOSES ONLY! 
 # NO LIABILITY FOR ILLEGAL USE IS ASSUMED!
