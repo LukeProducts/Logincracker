@@ -17,8 +17,6 @@ USERINDEX = value for variable 'name' in the Username-input
 PASSWORDINDEX = value for variable 'name' in the Password-input
 ![2](https://user-images.githubusercontent.com/73026669/111144934-015f4780-8588-11eb-9ffd-76f1a9ff2b2e.png)
 
-EXAMPLE:
-
 
 
 
