@@ -1,6 +1,8 @@
 
 # Logincracker
+
 This is a python programm using your passlist and userlist and random User-Agent generation to BRUTE-FORCE a for example login.php webpage.
+
 Installation:
 ```ruby
 pip install -r requirements.txt
@@ -27,8 +29,6 @@ After success the login-data will be saved at '/lib/Results/cracked.txt'.
 # NO LIABILITY FOR ILLEGAL USE IS ASSUMED!
 
 [![Build Status](https://user-images.githubusercontent.com/73026669/110617122-9c75ad00-8195-11eb-9ba5-422356072776.png)](https://github.com/LukeProducts)
-
-
 
 © Copyright by LukeProducts
 
