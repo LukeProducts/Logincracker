@@ -17,7 +17,8 @@ USERINDEX = value for variable 'name' in the Username-input
 PASSWORDINDEX = value for variable 'name' in the Password-input
 ![2](https://user-images.githubusercontent.com/73026669/111144934-015f4780-8588-11eb-9ffd-76f1a9ff2b2e.png)
 
-# DISCLAIMER: THIS IS FOR EDUCATIONAL PURPOSES ONLY! NO LIABILITY FOR ILLEGAL USE IS ASSUMED!
+# DISCLAIMER: THIS IS FOR EDUCATIONAL PURPOSES ONLY! 
+# NO LIABILITY FOR ILLEGAL USE IS ASSUMED!
 
 [![Build Status](https://user-images.githubusercontent.com/73026669/110617122-9c75ad00-8195-11eb-9ba5-422356072776.png)](https://github.com/LukeProducts)
 
