@@ -6,7 +6,7 @@ pip install -r requirements.txt
 ```
 usage:
 ```ruby
-python gather_login.py [URL] [userindex] [passwordindex]
+python gather_login.py [URL] [USERINDEX] [PASSWORDINDEX]
 ```
 
 
