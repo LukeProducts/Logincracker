@@ -1,3 +1,4 @@
+
 # Logincracker
 This is a python programm using your passlist and userlist to BRUTE-FORCE a for example login.php webpage.
 Installation:
@@ -14,7 +15,7 @@ PASSWORDINDEX = value for variable 'name' in the Password-input
 
 EXAMPLE:
 
-
+![instr](https://user-images.githubusercontent.com/73026669/111128844-aa507700-8575-11eb-9c78-7b7e0460bbc4.jpg)
 
 
 
