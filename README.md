@@ -9,7 +9,9 @@ usage:
 python gather_login.py [URL] [USERINDEX] [PASSWORDINDEX]
 ```
 USERINDEX = value for variable 'name' in the Username-input
+
 PASSWORDINDEX = value for variable 'name' in the Password-input
+
 EXAMPLE:
 
 
