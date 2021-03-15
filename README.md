@@ -6,10 +6,13 @@ Installation:
 pip install -r requirements.txt
 ```
 usage:
+
 Go to file '/lib/worldists/' and insert your username_list and your password_list into the two existing files after removing the hint.
+
 ```ruby
 python gather_login.py [URL] [USERINDEX] [PASSWORDINDEX]
 ```
+
 USERINDEX = value for variable 'name' in the Username-input
 ![1](https://user-images.githubusercontent.com/73026669/111144931-00c6b100-8588-11eb-88e0-9c701d3eae43.PNG)
 
