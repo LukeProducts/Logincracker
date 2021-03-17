@@ -78,9 +78,9 @@ def attack(url, usrind, passwdind, usr, passwd):
     try:
         r = requests.post(url, headers=header, data=data)
         if r.url != url:
-            print(f"{Fore.LIGHTCYAN_EX}*-----KEY FOUND!-----*")
+            print(f"{Fore.LIGHTCYAN_EX}►-----KEY FOUND!-----◄")
             print(f"User:{username}, Passwd:{passwd}")
-            print(f"*-----KEY FOUND!-----*\n{Fore.RESET}")
+            print(f"►-----KEY FOUND!-----◄\n{Fore.RESET}")
             save_cracked(url, usrind, passwdind, usr, passwd)
             found.append(data)
         counter += 1
